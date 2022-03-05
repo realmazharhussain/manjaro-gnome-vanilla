@@ -41,12 +41,12 @@ jobs:
         name: image-build-upload
         uses: manjaro/manjaro-iso-action@main
         with:
+          iso-profiles-repo: https://github.com/realmazharhussain/manjaro-iso-profiles.git
           edition: ${{ matrix.edition }}
           branch: ${{ matrix.branch }}
           scope: ${{ matrix.scope }}
           version: ${{ steps.time.outputs.time }}
           kernel: linux515
-          code-name: "Custom-Build"
           release-tag: ${{ needs.prepare-release.outputs.release_tag }}
       -
         name: rollback
