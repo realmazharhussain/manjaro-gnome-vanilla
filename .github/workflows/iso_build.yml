@@ -20,7 +20,7 @@ jobs:
     needs: [prepare-release]
     strategy:
       matrix:
-        EDITION: [xfce]
+        EDITION: [gnome-vanilla]
         BRANCH: [stable]
         SCOPE: [minimal,full]
     steps:
