@@ -1,9 +1,5 @@
 name: iso_build
-on:
-  push:
-    branches: [ main ]
-  pull_request:
-    branches: [ main ]
+on: workflow_dispatch
 jobs:
   prepare-release:
     runs-on: ubuntu-20.04
