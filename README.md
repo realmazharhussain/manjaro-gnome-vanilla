@@ -7,15 +7,19 @@ A Manjaro ISO with Vanilla Gnome experience
 
   For example;
 
-  `manjaro-gnome-vanilla-22.04-220416-linux515.iso.zip` \
-  `manjaro-gnome-vanilla-22.04-220416-linux515.iso.z01` \
-  `manjaro-gnome-vanilla-22.04-220416-linux515.iso.sha512`
+  ```
+  manjaro-gnome-vanilla-22.04-220416-linux515.iso.zip
+  manjaro-gnome-vanilla-22.04-220416-linux515.iso.z01
+  manjaro-gnome-vanilla-22.04-220416-linux515.iso.sha512
+  ```
 
   OR
 
-  `manjaro-gnome-vanilla-22.04-minimal-220416-linux515.iso.zip` \
-  `manjaro-gnome-vanilla-22.04-minimal-220416-linux515.iso.z01` \
-  `manjaro-gnome-vanilla-22.04-minimal-220416-linux515.iso.sha512`
+  ```
+  manjaro-gnome-vanilla-22.04-minimal-220416-linux515.iso.zip
+  manjaro-gnome-vanilla-22.04-minimal-220416-linux515.iso.z01
+  manjaro-gnome-vanilla-22.04-minimal-220416-linux515.iso.sha512
+  ```
 
 - Make sure all three of the downloaded files are in the same folder
 - Combine the split files (`.zip` and `.z01`) into a single/complete zip file with the command
