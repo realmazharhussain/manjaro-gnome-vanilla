@@ -21,22 +21,12 @@ A Manjaro ISO with Vanilla Gnome experience
   manjaro-gnome-vanilla-22.04-minimal-220416-linux515.iso.sha512
   ```
 
-- Make sure all three of the downloaded files are in the same folder
-- Combine the split files (`.zip` and `.z01`) into a single/complete zip file with the command
+- Extract (the `.iso` file from) the zip file
 
-  ```bash
-  zip --fix /path/to/zip --out /path/to/new_zip_file
-  ```
+  **Note:** In order to open the `.zip` file, its `.z01` file is required to be in the same folder as the `.zip` file.
 
-  For example;
-
-  ```bash
-  zip --fix manjaro-gnome-vanilla-22.04-220416-linux515.iso.zip --out manjaro-gnome-vanilla-complete.zip
-  ```
-
-- Extract the zip file and you'll have a `.iso` file
 - Make sure the `.iso` file is in the same folder as the `.sha512` file
-- Make sure the resulting `.iso` file is intact by running the command
+- Make sure the `.iso` file is intact by running the command
 
   ```bash
   sha512sum --check /path/to/sha512_file
