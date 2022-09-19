@@ -37,3 +37,5 @@ A Manjaro ISO with Vanilla Gnome experience
   ```bash
   sha512sum --check manjaro-gnome-vanilla-22.04-220416-linux515.iso.sha512
   ```
+
+- Remove the `.sha512` file
